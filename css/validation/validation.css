@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* common style */
+.btn {
+    background: #781f20;
+    color: #ffffff;
+    border: 0;
+    border-radius: 2px;
+    font-size: 12px;
+    padding: 12px 50px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.btn:hover,
+.btn:focus {
+    background: #8b0b0e;
+    color: #ffffff;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+/* form style */
+
+form {
+    background: #fff;
+    padding: 30px 30px;
+    margin: 30px 0px;
+    border: 2px solid #ebecec;
+}
+.form-group {
+    margin-bottom: 12px;
+}
+.validateField {
+    position: relative;
+    width: 100%;
+}
+.validateField .form-control {
+    position: relative;
+    font-size: 12px;
+    box-shadow: none;
+    border: 1px solid #000;
+    border-radius: 0;
+    padding: 8px 15px;
+    height: 38px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.validateField textarea.form-control {
+    height: 160px;
+}
+/* validation style */
+
+.validateField.has-error .form-control {
+    border: 1px solid #ff4e5a;
+    box-shadow: none;
+}
+/*.validateField.has-success .form-control {
+    border-bottom: 1px solid #17A007;
+    box-shadow: none;
+}*/
+.validateField.has-error .help-block {
+    color: #ff4e5a;
+}
+.validateField.has-success .help-block {
+    color: #3AC729;
+}
+.validateField .help-block {
+    position: absolute;
+    font-weight: 600;
+    font-size: 10px;
+    width: 100%;
+    bottom: -9px;
+    z-index: 99;
+    margin-bottom: 0;
+    text-align: left;
+    line-height: 9px;
+}
+.validateField > label {
+    margin-bottom: 0px;
+    position: absolute;
+    background: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    font-size: 11px;
+    width: 100%;
+    bottom: -23px;
+    height: 20px;
+    z-index: 99;
+    margin-bottom: 0;
+    line-height: 1.42857143;
+    text-align: left;
+    line-height: 9px;
+    color: rgba(0, 0, 0, 0.45);
+}

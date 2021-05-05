@@ -1,0 +1,358 @@
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Futura PT';
+*/
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaPT-Bold.woff2') format('woff2'),
+        url('../fonts/FuturaPT-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT Extra';
+    src: url('../fonts/FuturaPT-ExtraBold.woff2') format('woff2'),
+        url('../fonts/FuturaPT-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaPT-Heavy.woff2') format('woff2'),
+        url('../fonts/FuturaPT-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaPT-Light.woff2') format('woff2'),
+        url('../fonts/FuturaPT-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaPT-Medium.woff2') format('woff2'),
+        url('../fonts/FuturaPT-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+  font-family: 'Futura PT';
+}
+
+h1 {
+  font-family: 'Futura PT';
+  font-weight: 500;
+  font-size: 32px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Futura PT';
+  font-weight: 900;
+  font-size: 37px;
+  color: #333333;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+h2:after {
+    content: '';
+    width: 60px;
+    height: 2px;
+    background-color: #8b0b0e;
+    position: absolute;
+    left: 0;
+    bottom: -23px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Futura PT';
+    font-weight: 500;
+    font-size: 14px;
+    color: #232424;
+    line-height: 30px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    padding: 0px 35px;
+}
+
+.navbar-light .navbar-nav .active .nav-link {
+    font-weight: 900;
+}
+
+.navbar-light .navbar-nav .active .nav-link span {
+    border-bottom: 2px solid #8b0b0e;
+}
+
+.about-section h4 {
+  font-family: 'Futura PT';
+  font-weight: 400;
+  font-size: 16px;
+  color: #888888;
+  text-transform: uppercase;
+}
+
+.about-section p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+
+.products-section .product {
+  margin-bottom: 40px;
+}
+
+.products-section .product img {
+  margin-bottom: 40px;
+}
+
+.products-section .product h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  color: #1c1d1d;
+  position: relative;
+  margin-bottom: 40px;  
+}
+
+.products-section .product h4:after {
+    content: '';
+    width: 80px;
+    height: 2px;
+    background-color: #8b0b0e;
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+}
+
+.products-section .product p, .products-section p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #535252;
+  margin-bottom: 0px;
+}
+
+.facts-section h3 {
+  font-family: 'Futura PT';
+  font-weight: 900;
+  font-size: 56px;
+  color: #ffffff;
+    margin-bottom: 0px;
+}
+
+.facts-section h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 13px;
+  color: #ffffff;
+    margin-bottom: 4px;
+}
+
+.facts-section p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgb(255 255 255 / 35%);
+    margin-bottom: 0px;    
+}
+
+.testimonial-section .testimonial-block img {
+  margin-bottom: 50px;
+}
+
+.testimonial-section p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #efefef;
+  line-height: 30px;
+}
+
+.testimonial-section h4 {
+  font-family: 'Futura PT';
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 30px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
+.testimonial-section h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #efefef;
+  line-height: 30px;
+  font-style: italic;
+}
+
+.testimonial-section .carousel-control-next, 
+.testimonial-section .carousel-control-prev {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.commitment-section h3 {
+  font-family: 'Futura PT';
+  font-weight: 500;
+  font-size: 30px;
+  color: #000000;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.contact-section h3 {
+  font-family: 'Futura PT';
+  font-weight: 500;
+  font-size: 30px;
+  color: #03050d;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.contact-section h3:after {
+    content: '';
+    width: 60px;
+    height: 2px;
+    background-color: #8b0b0e;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+}
+
+.contact-section h4, .contact-section p strong {
+  font-family: 'Futura PT';
+  font-weight: 600;
+  font-size: 14px;
+  color: #03050d;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.contact-section h4 img {
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+.contact-section h4 img.mail {
+    margin-top: 4px;
+}
+
+.contact-section .phone-text {
+    padding-left: 20px;
+    position: relative;
+}
+
+.contact-section .phone-text img.phone {
+    position: absolute;
+    left: 0;
+    top: 1px;
+}
+
+.contact-section p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #03050d;
+    margin-bottom: 8px;  
+}
+
+.contact-form h3 {
+    font-family: 'Futura PT';
+    font-weight: 900;
+    font-size: 60px;
+    color: #000000;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 40px;
+    line-height: 56px;
+}
+
+.contact-section p a {
+    color: #03050d;
+}
+
+.red-bg {
+  background: #8b0b0e;
+}
+
+.dark-red-bg {
+  background: #781f20;
+}
+
+.gray-bg {
+  background: #dcddde;
+}
+
+.fill {
+    background: url(../images/banner.png);
+    -webkit-background-size: cover!important;
+    -moz-background-size: cover!important;
+    -o-background-size: cover!important;
+    background-size: cover!important;
+    height: 500px;
+    background-repeat: no-repeat!important;
+    background-position: center center!important;
+}
+
+.testimonial-block {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.testimonial-block img {
+  margin: 0 auto;
+}
+
+.p-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.p-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.p-80 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.mb-45{
+  margin-bottom: 45px;
+}
+
+.pl-6 {
+  padding-left: 6px;
+}
+
+.pr-6 {
+  padding-right: 6px;
+}
