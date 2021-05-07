@@ -83,6 +83,10 @@ h2:after {
     bottom: -23px;
 }
 
+.navbar {
+  background-color: #fff;
+}
+
 .navbar-light .navbar-nav .nav-link {
     font-family: 'Futura PT';
     font-weight: 500;
@@ -318,6 +322,7 @@ h2:after {
     height: 500px;
     background-repeat: no-repeat!important;
     background-position: center center!important;
+    margin-top: 112px;
 }
 
 .testimonial-block {
@@ -355,4 +360,168 @@ h2:after {
 
 .pr-6 {
   padding-right: 6px;
+}
+
+.carousel-indicators {
+    display: none;
+    bottom: -25px;
+}
+
+/* Responsive css */
+@media (max-width: 1199px) {
+  .contact-section p {
+      font-size: 13px;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    padding: 0px 20px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 991px) {
+
+.navbar-brand img {
+    height: 65px;
+}
+
+.fill {
+    height: auto;
+    margin-top: 90px;
+}
+
+.contact-form h3 {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.products-section .product img {
+    margin-bottom: 15px;
+}
+
+.p-80 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.commitment-section h3 {
+    font-size: 26px;
+}
+
+.products-below-section {
+  padding-top: 0px !important;
+}
+
+}
+
+@media (max-width: 767px) {
+
+.page-header-mob {
+    margin-top: 70px;
+}
+
+.navbar-brand img {
+    height: 45px;
+}
+
+.fill {
+  background: #dcddde;
+  margin-top: 0px;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+.p-80 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.p-50 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.facts-section h3 {
+    font-size: 36px;
+}
+
+.products-section .product {
+    margin-bottom: 40px !important;
+}
+
+.testimonial-section .testimonial-block img {
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+.testimonial-section p {
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.testimonial-section h4 {
+    line-height: 22px;
+}
+
+.testimonial-block {
+    width: 100%;
+}
+
+.carousel-indicators {
+    display: inline-flex;
+}
+
+.testimonial-section .carousel-control-next, .testimonial-section .carousel-control-prev {
+  display: none;
+}
+
+.commitment-section h3 {
+    font-size: 22px;
+}
+
+.contact-section h4, .contact-section p strong {
+    margin-bottom: 5px;
+}
+
+.contact-section .col-sm-12 p {
+    margin-bottom: 20px;
+}
+
+.contact-section h3 {
+    font-size: 24px;
+}
+
+}
+
+@media (max-width: 580px) {
+
+.contact-section .phone-text {
+    margin-bottom: 20px; 
+}
+
+.pl-6 {
+    padding-left: 15px;
+}
+
+.pr-6 {
+    padding-right: 15px;
+}
+
+}
+
+@media (max-width: 480px) {
+
 }
